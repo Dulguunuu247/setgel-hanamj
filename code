@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option Buttons with Title and Logo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 100px;
+            height: auto;
+        }
+        .title {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .option-button {
+            background-color: #000000;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 150px; 
+        }
+        .option-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+	
+        <img src="jpg/55.png" style="width:300px;height:300px;">
+        <div class="title">Бөглөхийг хүссэн маягтаа сонгоно уу</div>
+    </div>
+    <div class="button-container">
+        <a href="https://forms.app/form/61a7374154395376131c9496" class="option-button">Тавилга хүргэлтийн өмнөх судалгаа</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf80y4KRvgAOp4iVlpzWlEDq523z5S_kUs5xBcX6DBVglX0Qg/viewform" class="option-button">Цахилгаан барааны судалгаа</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScPR4ZsSQaa7HUkAESocHiYsYrcz8_s499ngH8XkGwRyoMtSQ/viewform" class="option-button">Тавилга хүргэгдсэний дараах судалгаа</a>
+    </div>
+</body>
+</html>
